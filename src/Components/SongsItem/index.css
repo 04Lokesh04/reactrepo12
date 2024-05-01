@@ -1,0 +1,59 @@
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  height: 125px;
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+.subcard {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+.playlistimage {
+  height: 90%;
+  width: 60%;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.textcard {
+  display: flex;
+  flex-direction: column;
+}
+
+.headingsong {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
+
+.genrepara {
+  color: #3b82f6;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.durationpara {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+}
+
+.deletebutton {
+  background-color: transparent;
+  height: 25px;
+  width: 25px;
+  border: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 25px;
+}
